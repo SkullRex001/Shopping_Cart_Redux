@@ -1,0 +1,20 @@
+.Navbar{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    font-size: 2vmax;
+    padding: 2vmax;
+}
+
+.links>a , .links{
+    text-decoration: none;
+    display: flex;
+    gap: 5vmax;
+
+}
+.links>a:visited {
+    color: black;
+}
