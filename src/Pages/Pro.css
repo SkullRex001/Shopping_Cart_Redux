@@ -5,3 +5,22 @@
 
 
 }
+
+.loading{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Set height to the full viewport height */
+        width: 100%; /* Set width to fill the viewport */
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        color: #ffffff; /* Text color */
+        position: fixed; /* Fix the element to the viewport */
+        top: 0;
+        left: 0;
+        z-index: 9999; /* Ensure it appears above other content */
+      
+      
+
+
+}
